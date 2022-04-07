@@ -8,6 +8,11 @@ This is a very simple remix stack built for heroku. This includes:
 * Postgres Sql for a datastore
 * Prism ORM for database queries
 
+## How to use this?
+
+run `npx create-remix@latest --template terribledev/remix-heroku`
+
+
 ## Developing
 
 You can use `docker-compose up -d` to boot postgres locally, and the connection strings you need are in `.env`.
