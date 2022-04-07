@@ -12,6 +12,8 @@ This is a very simple remix stack built for heroku. This includes:
 
 run `npx create-remix@latest --template terribledev/remix-heroku`
 
+Either provision a new heroku app with a postgres database or use the `deploy to heroku button` to setup your app.
+
 
 ## Developing
 
