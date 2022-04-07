@@ -19,9 +19,10 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
       <h1>Welcome to Remix Heroku</h1>
+      <a href="/new">Add a new note</a>
       <p> Notes: </p>
       <ul>
-        {data.notes.map(({ id, name }) => ( <li key={name}>id: {id} name: {name}</li>))}
+        {data.notes.map(({ id, name, content }) => ( <li key={name}>id: {id} name: {name} content: {content}</li>))}
       </ul>
       
       
