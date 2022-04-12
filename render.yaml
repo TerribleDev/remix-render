@@ -9,7 +9,7 @@ services:
     name: remix
     env: node
     plan: free
-    buildCommand: "npm install && npx prisma migrate deploy"
+    buildCommand: "npm install && npm run build && npx prisma migrate deploy"
     startCommand: "npm run start"
     envVars:
       - key: DATABASE_URL
