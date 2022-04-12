@@ -2,11 +2,13 @@ databases:
   - name: remixdb
     databaseName: remixdb
     user: remix
+    plan: free
 
 services:
   - type: web
     name: remix
     env: node
+    plan: free
     buildCommand: "npm install && npx prisma migrate deploy"
     startCommand: "npm run start"
     envVars:
