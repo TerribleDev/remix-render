@@ -1,18 +1,16 @@
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TerribleDev/remix-heroku)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+# Remix stack for Render.com
 
-# Remix stack for heroku
+This is a very simple remix stack built for [render.com](https://render.com). This includes:
 
-This is a very simple remix stack built for heroku. This includes:
-
-* dotenv to load environment variables
 * Postgres Sql for a datastore
 * Prism ORM for database queries
 
 ## How to use this?
 
-run `npx create-remix@latest --template terribledev/remix-heroku`
-
-Either provision a new heroku app with a postgres database or use the `deploy to heroku button` to setup your app.
+* run `npx create-remix@latest --template terribledev/remix-render`
+* Create a new github repo and push the output up
+* Use the deploy to render button in your repository to deploy your app
 
 
 ## Developing
