@@ -18,7 +18,7 @@ export default function Index() {
   const data = useLoaderData<LoaderData>();
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix Heroku</h1>
+      <h1>Welcome to Remix Render.com</h1>
       <a href="/new">Add a new note</a>
       <p> Notes: </p>
       <ul>
